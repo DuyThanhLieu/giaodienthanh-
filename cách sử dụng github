@@ -1,0 +1,42 @@
+PHẦN NÀY LÀM TRONG GIT BASH HERE FOLDER ĐÃ TẠO DemoGit
+
+git config --global user.name "duythanhlieu"
+git config --global user.email "duythanhlieu2001@gmail.com"
+git config --list
+cd new folder/
+git init
+git status
+git add *
+git status
+git commit -m "Init Project'
+
+
+PHẦN NÀY LÀM TRONG GIT BASH HERE "FOLDER ĐÃ TẠO" duythanhlieu
+
+git clone ......
+cd ....
+git add *
+git commit -m "First commit"
+git status
+git push
+
+
+NẾU MUỐN THÊM
+
+git add *
+git commit -m "Second commit'
+git status
+git push
+
+NẾU MUỐN THÊM VÀO BRANCH #
+git checkout [branchname]
+git add *
+git status
+git commit -m "note"
+git push -u origin [branchname]
+
+XÓA MỘT FILE KHỎI REPO MÀ VẪN CÒN TRONG PROJECT
+git -rm --cached [filename]
+
+XÓA MỘT FILE KHỎI REPO VÀ PROJECT
+git -rm [filename]
